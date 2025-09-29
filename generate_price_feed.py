@@ -78,5 +78,6 @@ for i, url in enumerate(urls_ru, 1):
 
 # --- Сохраняем ---
 tree = ET.ElementTree(rss)
-tree.write("feed_update.xml", encoding="utf-8", xml_declaration=True)
-print("Файл feed_prices.xml создан.")
+tree.write("feed_prices.xml", encoding="utf-8", xml_declaration=True)
+print("Файл feed_prices.xml створено.")
+
