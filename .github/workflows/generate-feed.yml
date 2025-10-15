@@ -2,7 +2,7 @@ name: Generate Feed
 
 on:
   schedule:
-    - cron: "0 */1 * * *"   # запуск раз на 12 годин
+    - cron: "0 */12 * * *"   # запуск раз на 12 годин
   workflow_dispatch:        # можливість запускати вручну
 
 permissions:
